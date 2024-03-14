@@ -15,7 +15,7 @@ A `byte slice` example
 import "github.com/ryanking8215/sharedany"
 
 data := make([]byte, 1024)
-sharedBytes := New[[]byte](data, 2, func(s *Shared[[]byte]) {
+sharedBytes := sharedany.New[[]byte](data, 2, func(s *Shared[[]byte]) {
 	// done callback
 })
 
