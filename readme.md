@@ -1,6 +1,6 @@
 # Usage
 ```
-go get github.com/ryanking8215/sharedany
+go get github.com/ryanking8215/go-sharedany
 ```
 
 # Shared anything
