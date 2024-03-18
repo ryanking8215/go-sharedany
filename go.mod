@@ -1,4 +1,4 @@
-module github.com/ryanking8215/sharedany
+module github.com/ryanking8215/go-sharedany
 
 go 1.18
 
